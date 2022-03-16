@@ -1,0 +1,39 @@
+body {
+    background: rgb(255, 162, 85);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 12%;
+}
+
+button {
+    color: white;
+    background-color: rgb(255, 110, 20);
+    border: none;
+    width: 10vw;
+    padding: 5%;
+    border-radius: 1em;
+    font-size: large;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#query {
+    border: none;
+    background-color: rgb(255, 110, 20);
+    color: white;
+    width: 40vw;
+    padding: 5%;
+    border-radius: 1em;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+::placeholder {
+    color: white;
+}
