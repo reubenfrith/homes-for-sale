@@ -20,6 +20,10 @@ p {
     font-size: large;
 }
 
+.message {
+    margin-top: 2%;   
+}
+
 #search, button {
     color: white;
     background-color: rgb(255, 110, 20);
