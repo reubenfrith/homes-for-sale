@@ -16,7 +16,7 @@ def index():
 
     if len(str(postcode))>4 or len(str(postcode))<4:
 
-      exit()
+      return render_template('index.html')
 
     url = f"https://www.allhomes.com.au/sale/search?page=1&postcode={postcode}"
     response = requests.get(url)
