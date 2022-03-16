@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+{%for i in list_of_houses %}
+
+<p>{{ i }}</p>
+
+{%endfor%}
+
+<a href="{{ url_for('index') }}"><button>Try Again!</button></a>
+
+{% endblock %}

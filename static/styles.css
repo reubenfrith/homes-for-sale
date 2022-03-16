@@ -11,7 +11,16 @@ h1 {
     margin-top: 12%;
 }
 
-button {
+form {
+    display: flex;
+    gap: 2%;
+}
+
+p {
+    font-size: large;
+}
+
+#search, button {
     color: white;
     background-color: rgb(255, 110, 20);
     border: none;
@@ -32,7 +41,12 @@ button {
     border-radius: 1em;
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
-} 
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
 
 ::placeholder {
     color: white;

@@ -1,0 +1,15 @@
+
+{% extends 'base.html' %}
+
+{% block body %}
+   
+    <h1>Find out what houses are for sale in your area?</h1>
+
+    <form id="form" action="/" method="POST"> 
+        <input type="text" id="query" name="query" placeholder="Enter your 4 digit postcode...">
+        <input type="submit" id="search" value="Search">
+    </form>
+
+    <p>This will only work for Australian postcodes</p>
+
+{% endblock %}
