@@ -31,6 +31,7 @@ p {
     font-size: large;
     cursor: pointer;
     font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 1%;
 }
 
 #query {
