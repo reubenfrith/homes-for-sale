@@ -12,7 +12,7 @@ I have built a web scraper that looks at https://www.allhomes.com.au/ and extrac
 The postcode you entered gets inputted into https://www.allhomes.com.au/ . It then searches the web page and extracts all addresses for that given postcode and this is what you see.</br>
 The Python library used for web scraping is [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/).</br>
 The Pyhton web framework used is [Flask](https://flask.palletsprojects.com/en/2.0.x/).</br>
-All data comes from https://www.allhomes.com.au/
+All data comes from https://www.allhomes.com.au/ .
 
 ### Deployement
 The app is deployed in [heroku](https://www.heroku.com/).
