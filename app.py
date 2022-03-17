@@ -14,7 +14,7 @@ def index():
     postcode = request.form.get("query")
 
 
-    if len(str(postcode))>4 or len(str(postcode))<4:
+    if len(str(postcode))>4 or len(str(postcode))<4 or str(postcode).isnumeric()==False:
 
       return render_template('index.html')
 
