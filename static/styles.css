@@ -33,6 +33,13 @@ p {
     font-family: 'Courier New', Courier, monospace;
 }
 
+img {
+    margin-top: 40vh;
+    margin-bottom: 10vh;
+    width: 3em;
+    height: 3em;
+}
+
 .try-again-button {
         margin: 10%;
 }
