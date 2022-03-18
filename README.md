@@ -2,7 +2,7 @@
 
 https://homes-for-sale-web-scraper.herokuapp.com/
 
-## Goal
+## Problem
 Answer the question, What houses are for sale in my local postcode ?
 
 ## Solution
